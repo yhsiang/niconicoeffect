@@ -111,7 +111,7 @@ var nicoNicoEffect = function () {
     var mw = new ModalWindow();
     mw.setPreExecute(preExecute);
     mw.setPostExecute(postExecute);
-    mw.show.bindAsEventListener(mw);
+    mw.show();
 
     //Event.observe(e, 'dblclick', mw.show.bindAsEventListener(mw));
 };
